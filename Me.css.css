@@ -1,0 +1,26 @@
+.body {
+	background-color: white;
+}
+
+
+.work {
+	color: blue;
+}
+
+
+
+.button {
+    border-radius: var(--image);
+    padding: 5px 10px;
+    border: double;
+    background: var(--text);
+    color: var(--background);
+    font-weight: bold;
+    box-sizing: border-box;
+    display: block;
+    margin: 8px 0;
+    cursor: pointer;
+    font-family: var(--font);
+    width: 160px;
+}
+
