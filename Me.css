@@ -1,11 +1,25 @@
 .body {
 	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-weight: lighter;
+	text-align: center;
 }
+
+.pfp
+{
+
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;		
+}	
+
 
 
 .work {
-	color: blue;
+	color: chocolate;
 }
+
 
 
 
