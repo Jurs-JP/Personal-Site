@@ -1,29 +1,97 @@
 body {
 	background-color: black;
 	background-image: url("https://scontent.fceb1-3.fna.fbcdn.net/v/t39.30808-6/294420918_7940893732617486_7338377372419534476_n.jpg?stp=dst-jpg_s720x720&_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFNfv5KaaEw1zIR2C8ZElMhR5RhzPvx4nxHlGHM-_HifFgLVFhSjB7DcvoCc7yuwMfDZJpy0FSjRrCGNdyfyRLZ&_nc_ohc=_jMt3H9BcPAAX8ScGwy&_nc_ht=scontent.fceb1-3.fna&oh=00_AT-vUeMUNhFZk9OjKqw3hNZE_U45APxeyRmeiGURuzphaA&oe=62E12EFC");
-	background-repeat: no-repeat;
-	background-size: cover;
 	font-weight: lighter;
-	text-align: center;
 	color: white;
 
 
+
+
 }
 
-.pfp
-{
+.pfp {	
+	
+	width: 220px;
+	height: 240px;
+	display: inline;
+	margin-top: 60px;
+	margin-left: 550px;
+	border-radius: 50%;
+	padding: 1px;
+	border: 1px solid chocolate;
+}
 
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;		
+.name {
+	display: block;
+	width: 225px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.name:hover {
+	color: cho;
 }	
 
 
-
-.work {
+.occupation {
+	display: block;
+	width: 370px;
 	color: chocolate;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.skills {
+	display: block;
+	margin-left: 600px;
+}
+
+.connect {
+	display: block;
+	width: 80px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
+.about {
+	display: block;
+	color: blue;
+	font-weight: bold;
+	font-size: 15px;
+	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	border-style: solid;
+	border-color: black;
+	border-radius: 30px;
+	border-width: 0.5px;
+
+}
+.about:hover {
+	color: red;
+}
+
+
+.fb {
+	width: 2.5%;
+	display: inline;
+	margin-left: 608px;
+}
+
+.twitter {
+	width: 3%;
+	display: inline;
+}
+
+.insta {
+	width: 2.8%;
+	display: inline;
+}
 
 
