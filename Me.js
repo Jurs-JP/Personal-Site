@@ -70,18 +70,13 @@
 
 
 
-
-var chatbox = document.getElementById('fb-customer-chat');
-chatbox.setAttribute("page_id", "100302345742073");
-chatbox.setAttribute("attribution", "biz_inbox");
-
-window.fbAsyncInit = function() {
+  window.fbAsyncInit = function() {
     FB.init({
       xfbml            : true,
       version          : 'v15.0'
     });
   };
-        //    Your SDK code 
+  
   (function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
